@@ -1,1 +1,9 @@
 
+https://developer.android.com/guide/navigation/navigation-getting-started
+
+Despues de agregar las dependencias necesarias:
+Para agregar un gráfico de navegación a tu proyecto, haz lo siguiente:
+
+En la ventana "Project", haz clic con el botón derecho en el directorio de res y selecciona New > Android Resource File. Se muestra el diálogo New Resource File.
+Escribe un nombre como "nav_graph" en el campoFile name.
+Selecciona Navigation en la lista desplegable Resource type y, luego, haz clic en OK.
