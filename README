@@ -7,3 +7,9 @@ Para agregar un gráfico de navegación a tu proyecto, haz lo siguiente:
 En la ventana "Project", haz clic con el botón derecho en el directorio de res y selecciona New > Android Resource File. Se muestra el diálogo New Resource File.
 Escribe un nombre como "nav_graph" en el campoFile name.
 Selecciona Navigation en la lista desplegable Resource type y, luego, haz clic en OK.
+
+
+Lo proximo es ir creando los fragmentos en la carpeta java donde se encuentra MainActivity.
+dejar el tilde para que agregue el .xml en layout
+
+Ir a nav-graph y agregar los fragments y la navegacion entre ellos
