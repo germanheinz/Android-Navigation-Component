@@ -13,3 +13,7 @@ Lo proximo es ir creando los fragmentos en la carpeta java donde se encuentra Ma
 dejar el tilde para que agregue el .xml en layout
 
 Ir a nav-graph y agregar los fragments y la navegacion entre ellos
+
+Para enviar argumentos de un fragmento a otro, debemos especificar en el layout el tipo
+Utilizar SafeArgs con sus dependencias y al hacer un rebuild,
+Se generaran los metodos para en el action poder pasar la argumentos definidos

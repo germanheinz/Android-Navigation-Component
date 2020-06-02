@@ -1,6 +1,7 @@
 package com.example.navigation_component_android
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -10,6 +11,12 @@ import android.view.ViewGroup
  * A simple [Fragment] subclass.
  */
 class FragmentC : Fragment() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        val nombre = FragmentCArgs.fromBundle(requireArguments()).nombre
+        Log.d("Valor Recibido", nombre);
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

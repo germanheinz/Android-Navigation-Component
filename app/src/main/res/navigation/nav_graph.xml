@@ -27,5 +27,10 @@
         android:id="@+id/fragmentC"
         android:name="com.example.navigation_component_android.FragmentC"
         android:label="fragment_c"
-        tools:layout="@layout/fragment_c" />
+        tools:layout="@layout/fragment_c" >
+        <argument
+            android:name="nombre"
+            app:argType="string"
+            android:defaultValue="no name" />
+    </fragment>
 </navigation>
