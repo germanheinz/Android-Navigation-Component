@@ -21,7 +21,9 @@
         tools:layout="@layout/fragment_b" >
         <action
             android:id="@+id/action_fragmentB_to_fragmentC"
-            app:destination="@id/fragmentC" />
+            app:destination="@id/fragmentC"
+            app:popUpTo="@id/fragmentA"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/fragmentC"

@@ -17,3 +17,10 @@ Ir a nav-graph y agregar los fragments y la navegacion entre ellos
 Para enviar argumentos de un fragmento a otro, debemos especificar en el layout el tipo
 Utilizar SafeArgs con sus dependencias y al hacer un rebuild,
 Se generaran los metodos para en el action poder pasar la argumentos definidos
+
+
+En el graph podemos ver las opciones de Pop Behavior
+Cuando hacemos un tap en la tecla de atras, podemos seleccionar a donde ir en este caso
+lo deje en Fragment A
+
+Si seleccionamos inclusive, nos sacaria de la App
